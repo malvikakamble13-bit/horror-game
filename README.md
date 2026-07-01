@@ -1,74 +1,54 @@
-# Getting Started with Create React App
+🕯️ Horror Game — Choose Your Fate
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An interactive horror story told through text and choices. There's no controller, no combat — just you, the dark, and a handful of buttons deciding whether you live or die.
 
-## Available Scripts
+📖 About
 
-In the project directory, you can run:
+This is a choice-based interactive fiction horror game. The story unfolds like a book, but at key moments you're given decisions to make through clickable buttons. Every choice branches the story forward — leading to one of several possible endings.
 
-### `npm start`
+There is no single "correct" path. Some choices lead to survival. Others don't.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🎮 How It Works
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+Read each passage of the story
+At decision points, choose from the available buttons
+Your choices are tracked and shape what happens next
+Reach one of multiple endings depending on the path you take
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+🛠️ Built With
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+React (Create React App)
+JavaScript
+CSS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+▶️ Play It
 
-### `npm run eject`
+Live demo: https://horror-game-ebon.vercel.app
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🚀 Running Locally
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+bashgit clone https://github.com/malvikakamble13-bit/horror-game.git
+cd horror-game
+npm install
+npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🧠 What I Learned
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+Structuring branching narrative logic in JavaScript
+Managing game state across multiple story paths
+Designing UI/UX for suspense and atmosphere
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+📌 Possible Future Additions
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Sound effects / ambient audio
+More endings and story branches
+Save/checkpoint system
+Visual effects (screen shake, flicker, etc.)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-updated by me
-Updated by me to test Git workflow.
-<br>
-Author - malvika
+Made with 🖤 by malvika
